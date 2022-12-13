@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\thori\Desktop\First_Project\stepupgolf_app\build\windows\CMakeFiles\76eda74707729f0b7d3e5394edb5244c\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{062FE200-EA45-32E2-96DC-CD5DB31C7E57}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

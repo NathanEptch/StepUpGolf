@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "738621509803",
+    "project_id": "fir-stepupgolf",
+    "storage_bucket": "fir-stepupgolf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:738621509803:android:6259a01f0b7545c093e7ee",
+        "android_client_info": {
+          "package_name": "com.example.stepupgolf_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "738621509803-pk64drkids1ss1na46t0ffsleh1vp35k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6nCgR5QjUY6j65r7ggifs1hm_H3t1rHE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "738621509803-pk64drkids1ss1na46t0ffsleh1vp35k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,28 @@
+^C:\USERS\THORI\DESKTOP\FIRST_PROJECT\STEPUPGOLF_APP\BUILD\WINDOWS\CMAKEFILES\79B3FC6BA61B3F4418D85D1D17C28E49\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\src\flutter PROJECT_DIR=C:\Users\thori\Desktop\First_Project\stepupgolf_app FLUTTER_ROOT=C:\src\flutter FLUTTER_EPHEMERAL_DIR=C:\Users\thori\Desktop\First_Project\stepupgolf_app\windows\flutter\ephemeral PROJECT_DIR=C:\Users\thori\Desktop\First_Project\stepupgolf_app FLUTTER_TARGET=C:\Users\thori\Desktop\First_Project\stepupgolf_app\lib\main.dart DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=C:\Users\thori\Desktop\First_Project\stepupgolf_app\.dart_tool\package_config.json C:/src/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\THORI\DESKTOP\FIRST_PROJECT\STEPUPGOLF_APP\BUILD\WINDOWS\CMAKEFILES\B08749424B680171AE655B627354558A\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\THORI\DESKTOP\FIRST_PROJECT\STEPUPGOLF_APP\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/thori/Desktop/First_Project/stepupgolf_app/windows -BC:/Users/thori/Desktop/First_Project/stepupgolf_app/build/windows --check-stamp-file C:/Users/thori/Desktop/First_Project/stepupgolf_app/build/windows/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

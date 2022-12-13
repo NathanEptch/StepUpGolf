@@ -1,0 +1,4 @@
+#Tue Dec 13 00:08:30 CET 2022
+base.0=C\:\\Users\\thori\\Desktop\\First_Project\\stepupgolf_app\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

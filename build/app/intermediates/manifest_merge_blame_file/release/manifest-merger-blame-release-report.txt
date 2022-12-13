@@ -1,0 +1,254 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.stepupgolf_app"
+4    android:versionCode="4001"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->C:\Users\thori\Desktop\First_Project\stepupgolf_app\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->C:\Users\thori\Desktop\First_Project\stepupgolf_app\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+11-->[:file_picker] C:\Users\thori\Desktop\First_Project\stepupgolf_app\build\file_picker\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-80
+11-->[:file_picker] C:\Users\thori\Desktop\First_Project\stepupgolf_app\build\file_picker\intermediates\merged_manifest\release\AndroidManifest.xml:9:22-77
+12
+13    <queries>
+13-->[:file_picker] C:\Users\thori\Desktop\First_Project\stepupgolf_app\build\file_picker\intermediates\merged_manifest\release\AndroidManifest.xml:11:5-17:15
+14        <intent>
+14-->[:file_picker] C:\Users\thori\Desktop\First_Project\stepupgolf_app\build\file_picker\intermediates\merged_manifest\release\AndroidManifest.xml:12:9-16:18
+15            <action android:name="android.intent.action.GET_CONTENT" />
+15-->[:file_picker] C:\Users\thori\Desktop\First_Project\stepupgolf_app\build\file_picker\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-72
+15-->[:file_picker] C:\Users\thori\Desktop\First_Project\stepupgolf_app\build\file_picker\intermediates\merged_manifest\release\AndroidManifest.xml:13:21-69
+16
+17            <data android:mimeType="*/*" />
+17-->[:file_picker] C:\Users\thori\Desktop\First_Project\stepupgolf_app\build\file_picker\intermediates\merged_manifest\release\AndroidManifest.xml:15:13-44
+17-->[:file_picker] C:\Users\thori\Desktop\First_Project\stepupgolf_app\build\file_picker\intermediates\merged_manifest\release\AndroidManifest.xml:15:19-41
+18        </intent>
+19    </queries> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+20    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+21    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+21-->[com.google.firebase:firebase-storage:20.1.0] C:\Users\thori\.gradle\caches\transforms-3\0da25f878ca7fc72a1a3e4059e81557e\transformed\jetified-firebase-storage-20.1.0\AndroidManifest.xml:25:5-79
+21-->[com.google.firebase:firebase-storage:20.1.0] C:\Users\thori\.gradle\caches\transforms-3\0da25f878ca7fc72a1a3e4059e81557e\transformed\jetified-firebase-storage-20.1.0\AndroidManifest.xml:25:22-76
+22    <uses-permission android:name="android.permission.INTERNET" />
+22-->[com.google.firebase:firebase-storage:20.1.0] C:\Users\thori\.gradle\caches\transforms-3\0da25f878ca7fc72a1a3e4059e81557e\transformed\jetified-firebase-storage-20.1.0\AndroidManifest.xml:26:5-67
+22-->[com.google.firebase:firebase-storage:20.1.0] C:\Users\thori\.gradle\caches\transforms-3\0da25f878ca7fc72a1a3e4059e81557e\transformed\jetified-firebase-storage-20.1.0\AndroidManifest.xml:26:22-64
+23    <uses-permission android:name="android.permission.WAKE_LOCK" />
+23-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\thori\.gradle\caches\transforms-3\bfd20290ff5d39e38453adc1ae5698f7\transformed\jetified-play-services-measurement-api-21.2.0\AndroidManifest.xml:24:5-68
+23-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\thori\.gradle\caches\transforms-3\bfd20290ff5d39e38453adc1ae5698f7\transformed\jetified-play-services-measurement-api-21.2.0\AndroidManifest.xml:24:22-65
+24    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+24-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\thori\.gradle\caches\transforms-3\bfd20290ff5d39e38453adc1ae5698f7\transformed\jetified-play-services-measurement-api-21.2.0\AndroidManifest.xml:25:5-79
+24-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\thori\.gradle\caches\transforms-3\bfd20290ff5d39e38453adc1ae5698f7\transformed\jetified-play-services-measurement-api-21.2.0\AndroidManifest.xml:25:22-76
+25    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+25-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\thori\.gradle\caches\transforms-3\5ec3faad4c67c5d02d41a8d7d7f45ea7\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:26:5-110
+25-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\thori\.gradle\caches\transforms-3\5ec3faad4c67c5d02d41a8d7d7f45ea7\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:26:22-107
+26
+27    <application
+28        android:name="android.app.Application"
+28-->C:\Users\thori\Desktop\First_Project\stepupgolf_app\android\app\src\main\AndroidManifest.xml:5:9-42
+29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+29-->[androidx.core:core:1.8.0] C:\Users\thori\.gradle\caches\transforms-3\0ce731f8c62e88af9af421907435d7da\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+30        android:icon="@mipmap/ic_launcher"
+30-->C:\Users\thori\Desktop\First_Project\stepupgolf_app\android\app\src\main\AndroidManifest.xml:6:9-43
+31        android:label="stepupgolf_app" >
+31-->C:\Users\thori\Desktop\First_Project\stepupgolf_app\android\app\src\main\AndroidManifest.xml:4:9-39
+32        <activity
+32-->C:\Users\thori\Desktop\First_Project\stepupgolf_app\android\app\src\main\AndroidManifest.xml:7:9-27:20
+33            android:name="com.example.stepupgolf_app.MainActivity"
+33-->C:\Users\thori\Desktop\First_Project\stepupgolf_app\android\app\src\main\AndroidManifest.xml:8:13-41
+34            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+34-->C:\Users\thori\Desktop\First_Project\stepupgolf_app\android\app\src\main\AndroidManifest.xml:12:13-163
+35            android:exported="true"
+35-->C:\Users\thori\Desktop\First_Project\stepupgolf_app\android\app\src\main\AndroidManifest.xml:9:13-36
+36            android:hardwareAccelerated="true"
+36-->C:\Users\thori\Desktop\First_Project\stepupgolf_app\android\app\src\main\AndroidManifest.xml:13:13-47
+37            android:launchMode="singleTop"
+37-->C:\Users\thori\Desktop\First_Project\stepupgolf_app\android\app\src\main\AndroidManifest.xml:10:13-43
+38            android:theme="@style/LaunchTheme"
+38-->C:\Users\thori\Desktop\First_Project\stepupgolf_app\android\app\src\main\AndroidManifest.xml:11:13-47
+39            android:windowSoftInputMode="adjustResize" >
+39-->C:\Users\thori\Desktop\First_Project\stepupgolf_app\android\app\src\main\AndroidManifest.xml:14:13-55
+40
+41            <!--
+42                 Specifies an Android theme to apply to this Activity as soon as
+43                 the Android process has started. This theme is visible to the user
+44                 while the Flutter UI initializes. After that, this theme continues
+45                 to determine the Window background behind the Flutter UI.
+46            -->
+47            <meta-data
+47-->C:\Users\thori\Desktop\First_Project\stepupgolf_app\android\app\src\main\AndroidManifest.xml:19:13-22:17
+48                android:name="io.flutter.embedding.android.NormalTheme"
+48-->C:\Users\thori\Desktop\First_Project\stepupgolf_app\android\app\src\main\AndroidManifest.xml:20:15-70
+49                android:resource="@style/NormalTheme" />
+49-->C:\Users\thori\Desktop\First_Project\stepupgolf_app\android\app\src\main\AndroidManifest.xml:21:15-52
+50
+51            <intent-filter>
+51-->C:\Users\thori\Desktop\First_Project\stepupgolf_app\android\app\src\main\AndroidManifest.xml:23:13-26:29
+52                <action android:name="android.intent.action.MAIN" />
+52-->C:\Users\thori\Desktop\First_Project\stepupgolf_app\android\app\src\main\AndroidManifest.xml:24:17-68
+52-->C:\Users\thori\Desktop\First_Project\stepupgolf_app\android\app\src\main\AndroidManifest.xml:24:25-66
+53
+54                <category android:name="android.intent.category.LAUNCHER" />
+54-->C:\Users\thori\Desktop\First_Project\stepupgolf_app\android\app\src\main\AndroidManifest.xml:25:17-76
+54-->C:\Users\thori\Desktop\First_Project\stepupgolf_app\android\app\src\main\AndroidManifest.xml:25:27-74
+55            </intent-filter>
+56        </activity>
+57        <!--
+58             Don't delete the meta-data below.
+59             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+60        -->
+61        <meta-data
+61-->C:\Users\thori\Desktop\First_Project\stepupgolf_app\android\app\src\main\AndroidManifest.xml:30:9-32:33
+62            android:name="flutterEmbedding"
+62-->C:\Users\thori\Desktop\First_Project\stepupgolf_app\android\app\src\main\AndroidManifest.xml:31:13-44
+63            android:value="2" />
+63-->C:\Users\thori\Desktop\First_Project\stepupgolf_app\android\app\src\main\AndroidManifest.xml:32:13-30
+64
+65        <service
+65-->[:firebase_storage] C:\Users\thori\Desktop\First_Project\stepupgolf_app\build\firebase_storage\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-14:19
+66            android:name="com.google.firebase.components.ComponentDiscoveryService"
+66-->[:firebase_storage] C:\Users\thori\Desktop\First_Project\stepupgolf_app\build\firebase_storage\intermediates\merged_manifest\release\AndroidManifest.xml:10:18-89
+67            android:directBootAware="true"
+67-->[com.google.firebase:firebase-common:20.2.0] C:\Users\thori\.gradle\caches\transforms-3\c1f7cd0e68ddf89c76a753ac7fd1a66c\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:34:13-43
+68            android:exported="false" >
+68-->[com.google.firebase:firebase-storage:20.1.0] C:\Users\thori\.gradle\caches\transforms-3\0da25f878ca7fc72a1a3e4059e81557e\transformed\jetified-firebase-storage-20.1.0\AndroidManifest.xml:31:13-37
+69            <meta-data
+69-->[:firebase_storage] C:\Users\thori\Desktop\First_Project\stepupgolf_app\build\firebase_storage\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-13:85
+70                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
+70-->[:firebase_storage] C:\Users\thori\Desktop\First_Project\stepupgolf_app\build\firebase_storage\intermediates\merged_manifest\release\AndroidManifest.xml:12:17-126
+71                android:value="com.google.firebase.components.ComponentRegistrar" />
+71-->[:firebase_storage] C:\Users\thori\Desktop\First_Project\stepupgolf_app\build\firebase_storage\intermediates\merged_manifest\release\AndroidManifest.xml:13:17-82
+72            <meta-data
+72-->[:cloud_firestore] C:\Users\thori\Desktop\First_Project\stepupgolf_app\build\cloud_firestore\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-13:85
+73                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+73-->[:cloud_firestore] C:\Users\thori\Desktop\First_Project\stepupgolf_app\build\cloud_firestore\intermediates\merged_manifest\release\AndroidManifest.xml:12:17-134
+74                android:value="com.google.firebase.components.ComponentRegistrar" />
+74-->[:cloud_firestore] C:\Users\thori\Desktop\First_Project\stepupgolf_app\build\cloud_firestore\intermediates\merged_manifest\release\AndroidManifest.xml:13:17-82
+75            <meta-data
+75-->[:firebase_core] C:\Users\thori\Desktop\First_Project\stepupgolf_app\build\firebase_core\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-13:85
+76                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+76-->[:firebase_core] C:\Users\thori\Desktop\First_Project\stepupgolf_app\build\firebase_core\intermediates\merged_manifest\release\AndroidManifest.xml:12:17-124
+77                android:value="com.google.firebase.components.ComponentRegistrar" />
+77-->[:firebase_core] C:\Users\thori\Desktop\First_Project\stepupgolf_app\build\firebase_core\intermediates\merged_manifest\release\AndroidManifest.xml:13:17-82
+78            <meta-data
+78-->[com.google.firebase:firebase-storage:20.1.0] C:\Users\thori\.gradle\caches\transforms-3\0da25f878ca7fc72a1a3e4059e81557e\transformed\jetified-firebase-storage-20.1.0\AndroidManifest.xml:32:13-34:85
+79                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+79-->[com.google.firebase:firebase-storage:20.1.0] C:\Users\thori\.gradle\caches\transforms-3\0da25f878ca7fc72a1a3e4059e81557e\transformed\jetified-firebase-storage-20.1.0\AndroidManifest.xml:33:17-107
+80                android:value="com.google.firebase.components.ComponentRegistrar" />
+80-->[com.google.firebase:firebase-storage:20.1.0] C:\Users\thori\.gradle\caches\transforms-3\0da25f878ca7fc72a1a3e4059e81557e\transformed\jetified-firebase-storage-20.1.0\AndroidManifest.xml:34:17-82
+81            <meta-data
+81-->[com.google.firebase:firebase-firestore:24.4.1] C:\Users\thori\.gradle\caches\transforms-3\c2814ab600cd7ad8abb3930813a7dae1\transformed\jetified-firebase-firestore-24.4.1\AndroidManifest.xml:19:13-21:85
+82                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+82-->[com.google.firebase:firebase-firestore:24.4.1] C:\Users\thori\.gradle\caches\transforms-3\c2814ab600cd7ad8abb3930813a7dae1\transformed\jetified-firebase-firestore-24.4.1\AndroidManifest.xml:20:17-111
+83                android:value="com.google.firebase.components.ComponentRegistrar" />
+83-->[com.google.firebase:firebase-firestore:24.4.1] C:\Users\thori\.gradle\caches\transforms-3\c2814ab600cd7ad8abb3930813a7dae1\transformed\jetified-firebase-firestore-24.4.1\AndroidManifest.xml:21:17-82
+84            <meta-data
+84-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\thori\.gradle\caches\transforms-3\bfd20290ff5d39e38453adc1ae5698f7\transformed\jetified-play-services-measurement-api-21.2.0\AndroidManifest.xml:31:13-33:85
+85                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+85-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\thori\.gradle\caches\transforms-3\bfd20290ff5d39e38453adc1ae5698f7\transformed\jetified-play-services-measurement-api-21.2.0\AndroidManifest.xml:32:17-139
+86                android:value="com.google.firebase.components.ComponentRegistrar" />
+86-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\thori\.gradle\caches\transforms-3\bfd20290ff5d39e38453adc1ae5698f7\transformed\jetified-play-services-measurement-api-21.2.0\AndroidManifest.xml:33:17-82
+87            <meta-data
+87-->[com.google.firebase:firebase-installations:17.1.0] C:\Users\thori\.gradle\caches\transforms-3\3fe9d54d7b663dbec51ad86b1763f50a\transformed\jetified-firebase-installations-17.1.0\AndroidManifest.xml:17:13-19:85
+88                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+88-->[com.google.firebase:firebase-installations:17.1.0] C:\Users\thori\.gradle\caches\transforms-3\3fe9d54d7b663dbec51ad86b1763f50a\transformed\jetified-firebase-installations-17.1.0\AndroidManifest.xml:18:17-127
+89                android:value="com.google.firebase.components.ComponentRegistrar" />
+89-->[com.google.firebase:firebase-installations:17.1.0] C:\Users\thori\.gradle\caches\transforms-3\3fe9d54d7b663dbec51ad86b1763f50a\transformed\jetified-firebase-installations-17.1.0\AndroidManifest.xml:19:17-82
+90        </service>
+91
+92        <uses-library
+92-->[androidx.window:window:1.0.0-beta04] C:\Users\thori\.gradle\caches\transforms-3\542a859793ec57d6a4d40865c7efc6d9\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+93            android:name="androidx.window.extensions"
+93-->[androidx.window:window:1.0.0-beta04] C:\Users\thori\.gradle\caches\transforms-3\542a859793ec57d6a4d40865c7efc6d9\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+94            android:required="false" />
+94-->[androidx.window:window:1.0.0-beta04] C:\Users\thori\.gradle\caches\transforms-3\542a859793ec57d6a4d40865c7efc6d9\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+95        <uses-library
+95-->[androidx.window:window:1.0.0-beta04] C:\Users\thori\.gradle\caches\transforms-3\542a859793ec57d6a4d40865c7efc6d9\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+96            android:name="androidx.window.sidecar"
+96-->[androidx.window:window:1.0.0-beta04] C:\Users\thori\.gradle\caches\transforms-3\542a859793ec57d6a4d40865c7efc6d9\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+97            android:required="false" />
+97-->[androidx.window:window:1.0.0-beta04] C:\Users\thori\.gradle\caches\transforms-3\542a859793ec57d6a4d40865c7efc6d9\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+98
+99        <activity
+99-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\thori\.gradle\caches\transforms-3\19fea4fb28dedd992824e13cc158e7a1\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+100            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+100-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\thori\.gradle\caches\transforms-3\19fea4fb28dedd992824e13cc158e7a1\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+101            android:exported="false"
+101-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\thori\.gradle\caches\transforms-3\19fea4fb28dedd992824e13cc158e7a1\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+102            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+102-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\thori\.gradle\caches\transforms-3\19fea4fb28dedd992824e13cc158e7a1\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+103
+104        <provider
+104-->[com.google.firebase:firebase-common:20.2.0] C:\Users\thori\.gradle\caches\transforms-3\c1f7cd0e68ddf89c76a753ac7fd1a66c\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:25:9-30:39
+105            android:name="com.google.firebase.provider.FirebaseInitProvider"
+105-->[com.google.firebase:firebase-common:20.2.0] C:\Users\thori\.gradle\caches\transforms-3\c1f7cd0e68ddf89c76a753ac7fd1a66c\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:26:13-77
+106            android:authorities="com.example.stepupgolf_app.firebaseinitprovider"
+106-->[com.google.firebase:firebase-common:20.2.0] C:\Users\thori\.gradle\caches\transforms-3\c1f7cd0e68ddf89c76a753ac7fd1a66c\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:27:13-72
+107            android:directBootAware="true"
+107-->[com.google.firebase:firebase-common:20.2.0] C:\Users\thori\.gradle\caches\transforms-3\c1f7cd0e68ddf89c76a753ac7fd1a66c\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:28:13-43
+108            android:exported="false"
+108-->[com.google.firebase:firebase-common:20.2.0] C:\Users\thori\.gradle\caches\transforms-3\c1f7cd0e68ddf89c76a753ac7fd1a66c\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:29:13-37
+109            android:initOrder="100" />
+109-->[com.google.firebase:firebase-common:20.2.0] C:\Users\thori\.gradle\caches\transforms-3\c1f7cd0e68ddf89c76a753ac7fd1a66c\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:30:13-36
+110
+111        <receiver
+111-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\thori\.gradle\caches\transforms-3\5ec3faad4c67c5d02d41a8d7d7f45ea7\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:29:9-33:20
+112            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+112-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\thori\.gradle\caches\transforms-3\5ec3faad4c67c5d02d41a8d7d7f45ea7\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:30:13-85
+113            android:enabled="true"
+113-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\thori\.gradle\caches\transforms-3\5ec3faad4c67c5d02d41a8d7d7f45ea7\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:31:13-35
+114            android:exported="false" >
+114-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\thori\.gradle\caches\transforms-3\5ec3faad4c67c5d02d41a8d7d7f45ea7\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:32:13-37
+115        </receiver>
+116
+117        <service
+117-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\thori\.gradle\caches\transforms-3\5ec3faad4c67c5d02d41a8d7d7f45ea7\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:35:9-38:40
+118            android:name="com.google.android.gms.measurement.AppMeasurementService"
+118-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\thori\.gradle\caches\transforms-3\5ec3faad4c67c5d02d41a8d7d7f45ea7\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:36:13-84
+119            android:enabled="true"
+119-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\thori\.gradle\caches\transforms-3\5ec3faad4c67c5d02d41a8d7d7f45ea7\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:37:13-35
+120            android:exported="false" />
+120-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\thori\.gradle\caches\transforms-3\5ec3faad4c67c5d02d41a8d7d7f45ea7\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:38:13-37
+121        <service
+121-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\thori\.gradle\caches\transforms-3\5ec3faad4c67c5d02d41a8d7d7f45ea7\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:39:9-43:72
+122            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+122-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\thori\.gradle\caches\transforms-3\5ec3faad4c67c5d02d41a8d7d7f45ea7\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:40:13-87
+123            android:enabled="true"
+123-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\thori\.gradle\caches\transforms-3\5ec3faad4c67c5d02d41a8d7d7f45ea7\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:41:13-35
+124            android:exported="false"
+124-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\thori\.gradle\caches\transforms-3\5ec3faad4c67c5d02d41a8d7d7f45ea7\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:42:13-37
+125            android:permission="android.permission.BIND_JOB_SERVICE" />
+125-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\thori\.gradle\caches\transforms-3\5ec3faad4c67c5d02d41a8d7d7f45ea7\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:43:13-69
+126
+127        <meta-data
+127-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\thori\.gradle\caches\transforms-3\3ee0f8915dc9bf42c60f3eef0b7bd28a\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+128            android:name="com.google.android.gms.version"
+128-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\thori\.gradle\caches\transforms-3\3ee0f8915dc9bf42c60f3eef0b7bd28a\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+129            android:value="@integer/google_play_services_version" />
+129-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\thori\.gradle\caches\transforms-3\3ee0f8915dc9bf42c60f3eef0b7bd28a\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+130
+131        <provider
+131-->[androidx.emoji2:emoji2:1.2.0] C:\Users\thori\.gradle\caches\transforms-3\c281d16a254c20644b7ca9ee2ab75c66\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+132            android:name="androidx.startup.InitializationProvider"
+132-->[androidx.emoji2:emoji2:1.2.0] C:\Users\thori\.gradle\caches\transforms-3\c281d16a254c20644b7ca9ee2ab75c66\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+133            android:authorities="com.example.stepupgolf_app.androidx-startup"
+133-->[androidx.emoji2:emoji2:1.2.0] C:\Users\thori\.gradle\caches\transforms-3\c281d16a254c20644b7ca9ee2ab75c66\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+134            android:exported="false" >
+134-->[androidx.emoji2:emoji2:1.2.0] C:\Users\thori\.gradle\caches\transforms-3\c281d16a254c20644b7ca9ee2ab75c66\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+135            <meta-data
+135-->[androidx.emoji2:emoji2:1.2.0] C:\Users\thori\.gradle\caches\transforms-3\c281d16a254c20644b7ca9ee2ab75c66\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+136                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+136-->[androidx.emoji2:emoji2:1.2.0] C:\Users\thori\.gradle\caches\transforms-3\c281d16a254c20644b7ca9ee2ab75c66\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+137                android:value="androidx.startup" />
+137-->[androidx.emoji2:emoji2:1.2.0] C:\Users\thori\.gradle\caches\transforms-3\c281d16a254c20644b7ca9ee2ab75c66\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+138            <meta-data
+138-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\thori\.gradle\caches\transforms-3\67b5ed60ff2c2a42fdde7eef68ce00e0\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+139                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+139-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\thori\.gradle\caches\transforms-3\67b5ed60ff2c2a42fdde7eef68ce00e0\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+140                android:value="androidx.startup" />
+140-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\thori\.gradle\caches\transforms-3\67b5ed60ff2c2a42fdde7eef68ce00e0\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+141        </provider>
+142    </application>
+143
+144</manifest>
